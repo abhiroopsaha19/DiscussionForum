@@ -1,0 +1,4 @@
+web: gunicorn {your-project-name}.wsgi —-log-file - 
+
+example: 
+web: gunicorn Discussion_forum.wsgi —-log-file - 
